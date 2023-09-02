@@ -1,0 +1,19 @@
+.creatPost{
+    position: relative;
+    top: 100px;
+    height: 50vh;
+    display: flex;
+}
+
+  .custom-textfield {
+    color: white;               
+    background-color: darkgray; 
+    border-color: white;      
+    transition: all 0.3s;       
+  
+    &:focus {
+      border-color: darkgray;      
+    }
+  
+  }
+  
